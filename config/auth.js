@@ -16,8 +16,8 @@ module.exports = {
     },
     // Visit https://console.developers.google.com
     'googleAuth' : {
-        'clientID'         : '850121934523-jjsiq0qh16j4hpf71ukumbme8jrub4ss.apps.googleusercontent.com', //relax, wrong key
-        'clientSecret'     : '-YhACurWbYqxvJTQGQPOBq17',// your App Secret
+        'clientID'         : 'your-secret-clientID-here', 
+        'clientSecret'     : 'your-client-secret-here',
         'callbackURL'      : 'http://localhost:8080/auth/google/callback'
     }
 
